@@ -1,0 +1,261 @@
+@keyframes fadeInFromLeft {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .image {
+    
+    opacity: 0;
+    animation: fadeInFromLeft 1s ease-in-out forwards;
+  }
+  
+  .image1 {
+    position: absolute;
+    top: 53%;
+    left: 32%; 
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 53%;
+    left: 5%;
+  }
+  
+  .image3 {
+    position: absolute;
+    top: 53%;
+    left: 20%;
+  }
+
+  img
+  {
+    border-radius: 10%; 
+
+  }
+
+  .smallscreenText
+  {
+    display: none; 
+  }
+
+.aboutMeIntro
+{
+    position: absolute;
+    left: 5%;
+    width: 35%;  
+    font-size: 1.1rem; 
+    font-weight: 350;
+    color: white; 
+}
+
+
+
+.profile2
+{
+  margin-left: 15%;
+}
+
+.profile3
+{
+  margin-left: 28.7%;
+}
+
+.aboutMe3
+{
+    position: absolute;
+    top: 95%; 
+    height: 30vh; 
+    left: 6%; 
+    font-weight: 350;
+    width: 34vw; 
+    color: white;
+    font-size: 1.1rem; 
+}
+
+
+.aboutMe2
+{
+    position: absolute; 
+    width: 34vw; 
+    top: 60%; 
+    color: white; 
+    left: 55%;
+    font-weight: 350;
+    font-size: 1.1rem; 
+}
+
+
+
+  .placement
+  {
+    margin-left: 55%; 
+  }
+
+  .placement2
+  {
+    margin-left: 45%; 
+  }
+
+  
+  .fade-in-element {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    font-weight: 350;
+  }
+
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .element2 {
+    height: 350px;
+    width: 350px;
+    animation: 
+  
+      pulse2 7s ease infinite alternate, 
+      nudge 9s linear infinite alternate;
+    border-radius: 100%;
+
+  }
+
+
+  .element {
+  height: 450px;
+  width: 450px;
+  background-color: rgb(236, 218, 218);
+  animation: 
+    pulse 5s ease infinite alternate, 
+    nudge 6s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #d73772db;
+  }
+  50% {
+    background-color: orange;
+  }
+}
+
+@keyframes pulse2 {
+    0%, 100% {
+      background-color: #cf427adb;
+    }
+    50% {
+      background-color: rgba(255, 166, 0, 0.318);
+    }
+  }
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(110px, 0);
+  }
+  
+  80% {
+    transform: translate(-110px, 0);
+  }
+}
+
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+
+
+
+.profile2
+{
+    margin-left: 0%; 
+    height: 165px;
+}
+
+.profile1
+{
+    margin: 0 auto;
+    height: 165px;
+    margin-left: 56%;
+}
+
+.profile3
+{
+    margin: 0 auto;
+    margin-left: 28%; 
+    height: 165px;
+}
+
+
+.aboutMe3
+{
+    display: none;
+}
+
+
+.aboutMe2
+{
+    display: none;
+}
+
+.aboutMeIntro
+{
+   display: none; 
+}
+
+.smallscreenText
+{
+    color: white; 
+    display: contents;
+
+}
+
+
+.space
+{
+    height: 80vh; 
+
+}
+
+.element2 {
+    height: 50px;
+    width: 50px;
+    animation: 
+  
+      pulse2 7s ease infinite alternate, 
+      nudge 6s linear infinite alternate;
+    border-radius: 100%;
+
+  }
+
+
+  .element {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(236, 218, 218);
+  animation: 
+    pulse 5s ease infinite alternate, 
+    nudge 9s linear infinite alternate;
+  border-radius: 100%;
+
+}
+
+.placement
+{
+    position: absolute;
+    top: 40%; 
+}
+
+.placement2
+{
+    position: absolute;
+    top: 26%; 
+}
+
+}
