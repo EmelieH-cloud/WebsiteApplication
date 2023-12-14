@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WebsiteApplication/static/css/main.2d09a703.css",
+    "main.js": "/WebsiteApplication/static/js/main.b032d14c.js",
+    "static/media/frans.jpeg": "/WebsiteApplication/static/media/frans.26e40f4420185acb8a4f.jpeg",
+    "static/media/dogwalk.jpeg": "/WebsiteApplication/static/media/dogwalk.c241cdc1bb0db1918a32.jpeg",
+    "static/media/profil.jpg": "/WebsiteApplication/static/media/profil.41406197c094baca45a2.jpg",
+    "index.html": "/WebsiteApplication/index.html",
+    "main.2d09a703.css.map": "/WebsiteApplication/static/css/main.2d09a703.css.map",
+    "main.b032d14c.js.map": "/WebsiteApplication/static/js/main.b032d14c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d09a703.css",
+    "static/js/main.b032d14c.js"
+  ]
+}
